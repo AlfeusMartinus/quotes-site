@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+html {
+    
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(5, 67, 35, 0.3), rgba(48, 48, 59, 0.7)), url('./img/bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(241, 241, 245);
+    text-shadow: 2px 2px 2px 4px rgb(202, 28, 28);
+    margin: 0px 0px 15px 0;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    border-radius: 9px;
+    background-color: #b3bdb3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: fixed;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button:hover {
+    background-color: #444c44;
+}
+
+h2 {
+    font-size: 4rem;
+    color: rgb(230, 230, 236);
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 30px;
+    color: rgb(230, 230, 236);
+}
+
+.main {
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.social-media i {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-media i:hover {
+    cursor: pointer;
+    color: rgb(71, 45, 41);
+}
+
+.social-media {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    font-size: 40px;
+    color: white;
+}
