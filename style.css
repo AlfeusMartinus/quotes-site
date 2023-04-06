@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
-html {
-    
-    box-sizing: border-box;
-}
 
 *, *::before, *::after {
     margin: 0;
@@ -50,6 +46,7 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 button:hover {
     background-color: #444c44;
 }
@@ -95,4 +92,22 @@ h5 {
     margin: auto;
     font-size: 40px;
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    button {
+        top: 20%;
+    }
+    h2 {
+        font-size: 3rem; margin-left: 20px;
+    }
+    .main {
+        margin-right: 0; margin-top: 50px; 
+    }
+    .social-media {
+        right: 10px; height: 200px; font-size: 30px; 
+    }
 }
